@@ -116,7 +116,7 @@
             h('h2', { class: 'reveal' }, lang === 'es' ? `${D.experiencias.length} formas de habitar la quebrada.` : `${D.experiencias.length} ways to inhabit the quebrada.`)
           ),
           h('div', { class: 'exp-grid' },
-            ...D.experiencias.slice(0, 6).map((exp, i) => {
+            ...[...D.experiencias].sort(() => Math.random() - 0.5).slice(0, 6).map((exp, i) => {
               const emp = D.emprendimientos.find(e => e.id === exp.emprendimiento);
               return h('div', { class: 'exp-card-v reveal', onclick: () => window.openModal(exp) },
                 h('div', { class: 'exp-card-img', style: { overflow: 'hidden' } },
