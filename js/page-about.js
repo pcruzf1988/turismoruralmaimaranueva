@@ -19,20 +19,20 @@
             class: 'reveal-clip',
             style: { fontSize: 'clamp(48px, 8vw, 110px)', maxWidth: '1100px' },
             html: lang === 'es'
-              ? 'Una red <em style="color:var(--c-cardon);font-style:italic">integrada</em> donde la economía, la demografía y el paisaje son agrícolas.'
-              : 'An integrated network where economy, demography and landscape are agricultural.'
+              ? 'Una red <em style="color:var(--c-cardon);font-style:italic">integrada</em> donde la producción agrícola define la economía, la población y el entorno.'
+              : 'An integrated network where agricultural production defines the economy, population, and environment.'
           })
         )
       ),
       h('section', { class: 'section', style: { paddingTop: '40px' } },
         h('div', { class: 'container' },
-          h('div', { style: { display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '60px' } },
-            h('div', { class: 'reveal' },
+          h('div', { class: 'about-intro-grid' },
+            h('div', { class: 'reveal about-img' },
               imgBox('images/maices.jpeg', 'Terrazas de cultivo', '3/4')
             ),
             h('div', { class: 'reveal' },
               h('div', { class: 'eyebrow', style: { marginBottom: '20px' } }, lang === 'es' ? 'Quiénes somos' : 'Who we are'),
-              h('p', { style: { fontSize: '22px', lineHeight: '1.55', marginBottom: '24px' } },
+              h('p', { style: { fontSize: 'clamp(17px, 2.4vw, 22px)', lineHeight: '1.55', marginBottom: '24px' } },
                 lang === 'es'
                   ? 'Turismo Rural Maimará es una oferta integrada de servicios turísticos en un contexto donde económica, demográfica y paisajísticamente predomina la actividad agrícola.'
                   : 'Turismo Rural Maimará is an integrated offer of tourism services in a context where farming dominates economy, demography and landscape.'
@@ -63,7 +63,7 @@
       ),
       h('section', { class: 'section' },
         h('div', { class: 'container' },
-          h('div', { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center' } },
+          h('div', { class: 'about-context-grid' },
             h('div', { class: 'reveal' },
               h('div', { class: 'eyebrow', style: { marginBottom: '20px' } }, lang === 'es' ? 'En contexto' : 'In context'),
               h('h2', { style: { marginBottom: '24px' } },
@@ -75,7 +75,7 @@
                   : 'At 2,383 m above sea level, in the Quebrada de Humahuaca — UNESCO World Heritage Site since 2003. In Aymara, Maimará means "falling star" or "place where the star rests".'
               )
             ),
-            h('div', { class: 'reveal' }, imgBox('images/maices.jpeg', 'Postal de Maimará al atardecer', '4/3'))
+            h('div', { class: 'reveal about-img' }, imgBox('images/maices.jpeg', 'Postal de Maimará al atardecer', '4/3'))
           )
         )
       )

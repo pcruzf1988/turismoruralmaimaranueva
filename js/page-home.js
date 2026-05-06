@@ -24,8 +24,8 @@
               }),
               h('p', { class: 'reveal', style: { fontSize: '19px', maxWidth: '520px', marginTop: '30px', color: 'var(--c-tinta-soft)' } },
                 lang === 'es'
-                  ? 'Somos familias anfitrionas de Maimará que invitan a vivir experiencias rurales auténticas en la Quebrada de Humahuaca. No te llevás solo una postal: te llevás una emoción, un gesto, un aprendizaje.'
-                  : 'We are host families from Maimará inviting you to live authentic rural experiences in the Quebrada de Humahuaca. You don\'t just take a postcard — you take an emotion, a gesture, a lesson.'
+                  ? 'Somos familias anfitrionas de Maimará que invitan a vivir experiencias rurales auténticas en la Quebrada de Humahuaca. No te llevás solo una postal: te llevás una emoción, una vivencia, un aprendizaje.'
+                  : 'We are host families from Maimará inviting you to live authentic rural experiences in the Quebrada de Humahuaca. You don\'t just take a postcard — you take an emotion, an experience, a lesson.'
               ),
               h('div', { class: 'reveal', style: { display: 'flex', gap: '14px', marginTop: '36px', flexWrap: 'wrap' } },
                 h('button', { class: 'btn btn-arrow', onclick: () => window.setRoute('experiences') },
@@ -64,20 +64,20 @@
         h('div', { class: 'container' },
           h('div', { class: 'section-header' },
             h('div', null,
-              h('div', { class: 'section-num' }, '— 01 / 03'),
+              
               h('div', { class: 'eyebrow reveal', style: { marginTop: '12px' } }, lang === 'es' ? 'Sobre nosotros' : 'About us')
             ),
             h('h2', { class: 'reveal' },
               lang === 'es'
-                ? 'Una oferta integrada de turismo rural donde lo agrícola, lo doméstico y lo artesanal se viven en el mismo gesto.'
-                : 'An integrated offer of rural tourism where farming, household life and craft happen in a single gesture.'
+                ? 'Una oferta integrada de turismo rural donde lo agrícola, lo hogareño y lo artesanal se viven en el mismo gesto.'
+                : 'An integrated offer of rural tourism where farming, home life and craft happen in a single gesture.'
             )
           ),
-          h('div', { style: { display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: '56px' } },
-            h('p', { class: 'reveal', style: { fontSize: '20px', lineHeight: '1.6' } },
+          h('div', { class: 'home-intro-grid' },
+            h('p', { class: 'reveal', style: { fontSize: 'clamp(16px, 2.2vw, 20px)', lineHeight: '1.6' } },
               lang === 'es'
-                ? 'Algunos de los emprendedores son agricultores y brindan experiencias de convivencia con sus familias, animales y cultivos. Otros ofrecen actividades más específicas: paseos en bicicleta, recorridos guiados, talleres de artesanías o cocina, vinculando a los visitantes con el paisaje agrícola maimareño desde experiencias puntuales.'
-                : 'Some of us are farmers who share life with their families, animals and crops. Others offer more specific activities — bike rides, guided tours, craft or cooking workshops — linking visitors to Maimará\'s agricultural landscape through more focused experiences.'
+                ? 'Algunos de los emprendedores son agricultores y brindan experiencias con sus familias, animales y cultivos. Otros ofrecen actividades más específicas: paseos, recorridos guiados, talleres de artesanías o cocina, vinculando a los visitantes con el paisaje agrícola maimareño desde experiencias puntuales.'
+                : 'Some of us are farmers who share life with their families, animals and crops. Others offer more specific activities —  guided tours, craft or cooking workshops — linking visitors to Maimará\'s agricultural landscape through more focused experiences.'
             ),
             h('div', { class: 'reveal', style: { display: 'flex', flexDirection: 'column', gap: '0' } },
               h('div', { style: {
@@ -110,8 +110,8 @@
         h('div', { class: 'container' },
           h('div', { class: 'section-header' },
             h('div', null,
-              h('div', { class: 'section-num' }, '— 02 / 03'),
-              h('div', { class: 'eyebrow reveal', style: { marginTop: '12px' } }, lang === 'es' ? 'Experiencias destacadas' : 'Featured experiences')
+              
+              h('div', { class: 'eyebrow reveal', style: { marginTop: '12px' } }, lang === 'es' ? 'Experiencias' : 'Featured experiences')
             ),
             h('h2', { class: 'reveal' }, lang === 'es' ? `${D.experiencias.length} formas de habitar la quebrada.` : `${D.experiencias.length} ways to inhabit the quebrada.`)
           ),
@@ -147,12 +147,12 @@
         h('div', { class: 'container' },
           h('div', { class: 'section-header' },
             h('div', null,
-              h('div', { class: 'section-num' }, '— 03 / 03'),
+              
               h('div', { class: 'eyebrow reveal', style: { marginTop: '12px' } }, lang === 'es' ? 'Las familias' : 'The families')
             ),
-            h('h2', { class: 'reveal' }, lang === 'es' ? 'Seis casas, seis oficios, una misma quebrada.' : 'Six homes, six crafts, one quebrada.')
+            h('h2', { class: 'reveal' }, lang === 'es' ? 'Seis hogares, seis oficios, una misma quebrada.' : 'Six homes, six crafts, one quebrada.')
           ),
-          h('div', { style: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '28px' } },
+          h('div', { class: 'home-hosts-grid' },
             ...D.emprendimientos.map(emp =>
               h('div', { class: 'reveal home-host-card', onclick: () => {
                 window.setRoute('hosts');
