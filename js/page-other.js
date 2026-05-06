@@ -74,19 +74,18 @@
               )
             )
           ),
-          // Mapa SVG estilizado
-          h('div', { class: 'reveal', style: { marginTop: '60px', position: 'relative', background: 'var(--c-papel-2)', aspectRatio: '16/9', overflow: 'hidden' }, html: `
-            <svg viewBox="0 0 800 450" style="width:100%;height:100%">
-              <polygon points="0,300 100,200 180,260 280,140 380,220 480,160 580,240 680,180 800,250 800,450 0,450" fill="rgba(197,72,58,0.18)"/>
-              <polygon points="0,360 120,290 220,320 320,260 420,310 520,250 620,290 720,260 800,310 800,450 0,450" fill="rgba(217,137,42,0.22)"/>
-              <polygon points="0,400 100,360 200,380 300,350 400,375 500,345 600,370 700,355 800,385 800,450 0,450" fill="rgba(92,122,63,0.30)"/>
-              <path d="M 60 380 Q 200 350 350 360 T 720 340" fill="none" stroke="#1F1A14" stroke-width="2" stroke-dasharray="8 6"/>
-              <g><circle cx="120" cy="380" r="5" fill="#1F1A14"/><text x="134" y="384" font-family="JetBrains Mono" font-size="11">PURMAMARCA</text></g>
-              <g><circle cx="350" cy="360" r="10" fill="#C5483A"/><text x="364" y="364" font-family="JetBrains Mono" font-size="16" font-weight="700">MAIMARÁ</text></g>
-              <g><circle cx="540" cy="350" r="5" fill="#1F1A14"/><text x="554" y="354" font-family="JetBrains Mono" font-size="11">TILCARA</text></g>
-              <g><circle cx="720" cy="340" r="5" fill="#1F1A14"/><text x="734" y="344" font-family="JetBrains Mono" font-size="11">HUMAHUACA</text></g>
-            </svg>
-          ` })
+          h('div', { class: 'reveal', style: { marginTop: '60px', position: 'relative', aspectRatio: '16/9', overflow: 'hidden', borderRadius: '12px' } },
+            h('iframe', {
+              src: 'https://maps.google.com/maps?q=Maimar%C3%A1,+Jujuy,+Argentina&output=embed&hl=es',
+              width: '100%',
+              height: '100%',
+              style: { border: '0', display: 'block' },
+              allowfullscreen: '',
+              loading: 'lazy',
+              referrerpolicy: 'no-referrer-when-downgrade',
+              title: lang === 'es' ? 'Mapa de Maimará, Jujuy' : 'Map of Maimará, Jujuy'
+            })
+          )
         )
       )
     );
