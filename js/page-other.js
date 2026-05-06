@@ -7,18 +7,18 @@
   window.PageGallery = function PageGallery() {
     const lang = window.STATE.lang;
     const tiles = [
-      { src: 'images/maices.jpeg', label: 'PALETA DEL PINTOR', cls: 'g-big' },
-      { src: 'images/intipacha/huerta1.jpeg', label: 'HUERTA AGROECOLÓGICA', cls: 'g-sq' },
-      { src: 'images/estrellafamiliar/casa1.jpeg', label: 'CABRAS · LA ESTRELLA', cls: 'g-sq' },
-      { src: 'images/manitostejedoras/telar1.jpeg', label: 'TELAR BASTIDOR', cls: 'g-wide' },
-      { src: 'images/qullana/qullana2.jpeg', label: 'ALAMBIQUE · QULLÄNA', cls: 'g-narrow' },
-      { src: 'images/tierramia/flores1.jpeg', label: 'CAMPO DE FLORES', cls: 'g-narrow' },
-      { src: 'images/alborada/alborada2.jpeg', label: 'BORDADO DE FLORES', cls: 'g-default' },
-      { src: 'images/intipacha/cocina2.jpeg', label: 'OLLAS DE BARRO', cls: 'g-default' },
-      { src: 'images/manitostejedoras/manitostejedoras2.jpg', label: 'PUISCA · HILADO', cls: 'g-default' },
-      { src: 'images/manitostejedoras/tintes2.jpeg', label: 'TINTES NATURALES', cls: 'g-default' },
-      { src: 'images/estrellafamiliar/estadia1.jpeg', label: 'AMANECER QUEBRADA', cls: 'g-wide' },
-      { src: 'images/intipacha/cocina3.jpeg', label: 'PAN ARTESANAL', cls: 'g-sq' }
+      { src: 'images/maices.jpeg', label: 'Maíces de colores en la Quebrada de Humahuaca, Maimará, Jujuy', cls: 'g-big' },
+      { src: 'images/intipacha/huerta1.jpeg', label: 'Huerta agroecológica con aromáticas y especias, Inti Pacha, Maimará', cls: 'g-sq' },
+      { src: 'images/estrellafamiliar/casa1.jpeg', label: 'Cabras y vida de campo en La Estrella Familiar, Maimará', cls: 'g-sq' },
+      { src: 'images/manitostejedoras/telar1.jpeg', label: 'Telar bastidor andino con lana de oveja, Manitos Tejedoras, Maimará', cls: 'g-wide' },
+      { src: 'images/qullana/qullana2.jpeg', label: 'Alambique artesanal para destilación de aceites esenciales, Qulläna, Maimará', cls: 'g-narrow' },
+      { src: 'images/tierramia/flores1.jpeg', label: 'Campo de flores cultivadas al pie de la Paleta del Pintor, Tierra Mía, Maimará', cls: 'g-narrow' },
+      { src: 'images/alborada/alborada2.jpeg', label: 'Bordado de flores andinas en tela, Tejidos Alborada, Maimará', cls: 'g-default' },
+      { src: 'images/intipacha/cocina2.jpeg', label: 'Cocina en ollas de barro con ingredientes andinos, Inti Pacha, Maimará', cls: 'g-default' },
+      { src: 'images/manitostejedoras/manitostejedoras2.jpg', label: 'Hilado en puisca prehispánica con lana de llama, Manitos Tejedoras, Maimará', cls: 'g-default' },
+      { src: 'images/manitostejedoras/tintes2.jpeg', label: 'Tintes naturales con plantas de la Quebrada en madejas de lana', cls: 'g-default' },
+      { src: 'images/estrellafamiliar/estadia1.jpeg', label: 'Amanecer en la Quebrada de Humahuaca desde La Estrella Familiar, Maimará', cls: 'g-wide' },
+      { src: 'images/intipacha/cocina3.jpeg', label: 'Pan artesanal elaborado con harinas andinas en Inti Pacha, Maimará', cls: 'g-sq' }
     ];
     return h('div', { class: 'page-content' },
       h('section', { class: 'hero' },
