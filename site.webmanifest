@@ -1,0 +1,13 @@
+{
+  "name": "Turismo Rural Maimará",
+  "short_name": "TRM Maimará",
+  "description": "Experiencias rurales auténticas en la Quebrada de Humahuaca, Jujuy.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F5EFE2",
+  "theme_color": "#C5483A",
+  "lang": "es-AR",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
