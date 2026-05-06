@@ -9,8 +9,22 @@
     const tones = { intipacha: 'cardon', estrella: 'terracota', manitos: 'violeta', qullana: 'turquesa', alborada: 'ocre', tierramia: 'rosa' };
     const tones2a = { intipacha: 'ocre', estrella: 'cardon', manitos: 'turquesa', qullana: 'cardon', alborada: 'terracota', tierramia: 'cardon' };
     const tones2b = { intipacha: 'rosa', estrella: 'ocre', manitos: 'rosa', qullana: 'violeta', alborada: 'violeta', tierramia: 'ocre' };
-    const labels2a = { intipacha: 'HUERTA AGROECOLÓGICA', estrella: 'CABRAS · QUESOS', manitos: 'PUISCA · HILADO', qullana: 'PLANTAS MEDICINALES', alborada: 'BORDADO DE FLORES', tierramia: 'CAMPO DE FLORES' };
-    const labels2b = { intipacha: 'OLLAS DE BARRO', estrella: 'MESA FAMILIAR', manitos: 'TELAR · TINTES', qullana: 'ALAMBIQUE ARTESANAL', alborada: 'FLORES DE LANA', tierramia: 'HORTALIZAS · COSECHA' };
+    const labels2a = {
+      intipacha: 'Huerta agroecológica con aromáticas y especias, Inti Pacha, Maimará',
+      estrella: 'Cabras y animales de campo, La Estrella Familiar, Maimará',
+      manitos: 'Hilado en puisca prehispánica, Manitos Tejedoras, Maimará',
+      qullana: 'Plantas medicinales y alambique artesanal, Qulläna, Maimará',
+      alborada: 'Bordado de flores en tela, Tejidos Alborada, Maimará',
+      tierramia: 'Campo de flores y hortalizas, Tierra Mía, Maimará'
+    };
+    const labels2b = {
+      intipacha: 'Infusiones y dulces en ollas de barro, Inti Pacha, Maimará',
+      estrella: 'Mesa familiar con productos de la huerta, La Estrella Familiar, Maimará',
+      manitos: 'Tejido en telar bastidor con tintes naturales, Manitos Tejedoras, Maimará',
+      qullana: 'Preparación de aceites esenciales e hidrolatos, Qulläna, Maimará',
+      alborada: 'Flores de lana de colores para adornos, Tejidos Alborada, Maimará',
+      tierramia: 'Hortalizas y cosecha en el campo familiar, Tierra Mía, Maimará'
+    };
 
     return h('div', { class: 'page-content' },
       h('section', { class: 'hero' },
