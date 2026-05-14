@@ -103,7 +103,7 @@
       const body = encodeURIComponent(
         `Nombre: ${data.get('nombre')}\nEmail: ${data.get('email')}\nFecha: ${data.get('fecha')}\nPersonas: ${data.get('personas')}\nExperiencia: ${data.get('experiencia')}\n\n${data.get('mensaje')}`
       );
-      window.location.href = `mailto:hola@turismoruralmaimara.ar?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:maimaraturismorural@gmail.com?subject=${subject}&body=${body}`;
       const sentEl = document.getElementById('contact-sent');
       if (sentEl) sentEl.style.display = 'block';
     }
@@ -127,11 +127,11 @@
               ),
               h('div', { style: { padding: '24px 0', borderTop: '1px solid rgba(31,26,20,0.15)', borderBottom: '1px solid rgba(31,26,20,0.15)' } },
                 h('div', { class: 'eyebrow', style: { marginBottom: '10px' } }, 'Email'),
-                h('div', { style: { fontFamily: 'var(--font-display)', fontSize: '22px' } }, 'hola@turismoruralmaimara.ar')
+                h('a', { href: 'mailto:maimaraturismorural@gmail.com', style: { fontFamily: 'var(--font-display)', fontSize: '22px', color: 'inherit' } }, 'maimaraturismorural@gmail.com')
               ),
               h('div', { style: { padding: '24px 0', borderBottom: '1px solid rgba(31,26,20,0.15)' } },
                 h('div', { class: 'eyebrow', style: { marginBottom: '10px' } }, 'Instagram'),
-                h('div', { style: { fontFamily: 'var(--font-display)', fontSize: '22px' } }, '@turismoruralmaimara')
+                h('a', { href: 'https://instagram.com/maimara.turismorural', target: '_blank', rel: 'noopener', style: { fontFamily: 'var(--font-display)', fontSize: '22px', color: 'inherit' } }, '@maimara.turismorural')
               )
             ),
             h('form', { class: 'reveal', onsubmit: onSubmit, style: { background: 'var(--c-papel-2)', padding: '40px 36px' } },
