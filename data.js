@@ -20,7 +20,7 @@ window.SITE_DATA = {
         { titulo: "Compromiso con el entorno", desc: "Para nosotros, reciclar es un hábito de toda la vida. Usamos materiales reutilizados, compostamos, intercambiamos recursos con los vecinos. Producimos a pequeña escala, sin forzar la tierra ni las cosas." },
         { titulo: "Trabajo con la comunidad", desc: "Creemos en hacer camino junto a otros. Por eso trabajamos con productores, artesanos y emprendedores de la zona." }
       ],
-      contacto: { instagram: "@intipacha_maimara" }, pagos: "Efectivo y transferencia.",
+      contacto: { whatsapp: "+54 9 388 5090436", instagram: "@intipacha_maimara", facebook: { nombre: "Maimara Turismo Rural", url: "https://www.facebook.com/profile.php?id=61576988424322" }, email: "maimaraturismorural@gmail.com" }, pagos: "Efectivo y transferencia.",
       horarios: "Actividades: sábados, domingos y feriados de 17 a 20 h. Venta de productos (dulces, especias, aromáticas deshidratadas): otros días, pero siempre mejor mandar un mensaje antes para asegurarse de que estamos.",
       sello: "Sello Cocinar — Ministerio de Turismo de la Nación. También formamos parte de Asociación de Turismo de Quebrada y Puna.",
       imgRetrato: "images/retratoIntiPacha.jpeg", imgDet1: "images/intipacha/intiPacha1.jpeg", imgDet2: "images/intipacha/intiPacha2.jpeg",
@@ -38,7 +38,7 @@ window.SITE_DATA = {
         { titulo: "Labores agrícolas", desc: "Participar en las labores agrícolas, sintiendo la tierra entre tus manos." },
         { titulo: "Cocina y mesa compartida", desc: "Colaborar en tareas domésticas tradicionales, como preparar una receta local llena de sabor e historia." }
       ],
-      contacto: { whatsapp: "+54 9 3884 78-4785", instagram: "@ramor5243", facebook: "ramo.rodri.2025" },
+      contacto: { whatsapp: "+54 9 388 4784785", instagram: "@ramor5243", facebook: { nombre: "Ramo Rodri", url: "https://www.facebook.com/ramo.rodri.2025" }, email: "maimaraturismorural@gmail.com" },
       pagos: "Solamente transferencia y efectivo. Poseemos internet en nuestro emprendimiento.",
       horarios: "Solo con reserva. Para vivir esta experiencia, puede realizar su reserva vía WhatsApp, hasta el día anterior a las 20:00 horas.",
       imgRetrato: "images/retratoRamona.jpeg", imgDet1: "images/estrellafamiliar/estrellafamiliar1.jpeg", imgDet2: "images/estrellafamiliar/estrellafamiliar2.jpeg",
@@ -56,7 +56,7 @@ window.SITE_DATA = {
         { titulo: "Teñido natural", desc: "Pigmentos de plantas y minerales recolectados en la quebrada." },
         { titulo: "Tejido en telar bastidor", desc: "Las primeras tramas con tus propias manos." }
       ],
-      contacto: { whatsapp: "+54 9 3884 15-8833", instagram: "@manitostejedoras" },
+      contacto: { whatsapp: "+54 9 388 4158833", instagram: "@ortenciaquispe23", facebook: { nombre: "Ortencia Quispe", url: "https://www.facebook.com/ortecia.quispe" }, email: "maimaraturismorural@gmail.com" },
       pagos: "Tarjetas de débito y crédito, transferencias bancarias. Contamos con medios de pago electrónicos e internet en el taller.",
       horarios: "Para experiencias: 10:00 a 12:00 hs (mañana) y 15:00 a 17:00 hs (tarde). Fuera de estos horarios pueden aproximarse a comprar prendas y suvenires textiles que siempre tengo en stock, tanto a mi taller como a mi puesto en la plaza central de Tilcara.",
       imgRetrato: "images/retratoOrtencia.jpeg", imgDet1: "images/manitostejedoras/manitostejedoras1.jpeg", imgDet2: "images/manitostejedoras/manitostejedoras2.jpg",
@@ -74,7 +74,7 @@ window.SITE_DATA = {
         { titulo: "Pomadas y tinturas madre", desc: "Medicina familiar con plantas, ceras y aceites." },
         { titulo: "Showroom de productos", desc: "Punto de venta en Hostería La Paleta del Pintor." }
       ],
-      contacto: { whatsapp: "+54 9 11 3034 1946", instagram: "@qullana_argentina", facebook: "qüllanaremediosnaturales" },
+      contacto: { whatsapp: "+54 9 11 3034 1946", instagram: "@qullana_argentina", facebook: { nombre: "Qülläna Remedios Naturales", url: "https://www.facebook.com/qullanaremediosnaturales" }, email: "marinaalejandrapeters@gmail.com" },
       pagos: "Efectivo, transferencia bancaria, QR, tarjeta de crédito o débito.",
       horarios: "Para experiencias: 10:00 a 13:00 hs (mañana) y 15:00 a 18:00 hs (tarde). Con reserva previa (mínimo 48 hs). Fuera de estos horarios pueden aproximarse a comprar productos en la tienda ubicada en Hostería La Paleta del Pintor, de 9 a 20 hs.",
       imgRetrato: "images/retratoMarina.jpeg", imgDet1: "images/qullana/qullana1.jpeg", imgDet2: "images/qullana/qullana2.jpeg",
@@ -92,7 +92,7 @@ window.SITE_DATA = {
         { titulo: "Adornos con flores de lana", desc: "Recreamos la tradición de «florar» el ganado de la Puna." },
         { titulo: "Circuito del textil", desc: "Cuatro estaciones desde la fibra hasta la prenda terminada." }
       ],
-      contacto: { whatsapp: "+54 9 388 472873", instagram: "@tejidosalborada", facebook: "tejidosalborada" },
+      contacto: { whatsapp: "+54 9 388 4752873", instagram: "@tejidosalborada", facebook: { nombre: "Tejidos Alborada", url: "https://www.facebook.com/tejidosalborada" }, email: "maimaraturismorural@gmail.com" },
       pagos: "Tejidos Alborada posee medios de pago electrónicos e internet en su local.",
       horarios: "Los horarios recomendados para realizar las actividades son de 10:00 a 12:00 hs por la mañana y de 15:00 a 17:00 hs por la tarde. Fuera de estos horarios pueden aproximarse a comprar prendas y suvenires textiles que siempre tengo en stock.",
       imgRetrato: "images/retratoNora.jpeg", imgDet1: "images/alborada/alborada1.jpeg", imgDet2: "images/alborada/alborada2.jpeg",
@@ -110,10 +110,30 @@ window.SITE_DATA = {
         { titulo: "Saberes agroecológicos", desc: "Rotación de cultivos, abonadas, cuidados contra hongos y ácaros." },
         { titulo: "Historias de familia", desc: "Cosechamos hermosos recuerdos junto a las plantaciones." }
       ],
-      contacto: { instagram: "@turismoruralmaimara" },
+      contacto: { whatsapp: "+54 9 388 3299741", instagram: "@maimara.turismorural", facebook: { nombre: "Patricia Cruz", url: "https://www.facebook.com/profile.php?id=61571458094018" }, email: "cruzpatricia6627@gmail.com" },
       pagos: "Puede realizar pagos, tanto para compra de flores como para las visitas, mediante transferencia o en efectivo.",
       horarios: "Los horarios recomendados para realizar las actividades son de 10:00 a 12:00 hs por la mañana y de 16:00 a 19:00 hs por la tarde. Fuera de estos horarios pueden aproximarse a comprar flores a la quinta ubicada en la intersección de las calles Cornelio Zelaya y Froilán Calvetti.",
       imgRetrato: "images/retratoPatricia.jpeg", imgDet1: "images/tierramia/tierramia1.jpeg", imgDet2: "images/tierramia/tierramia2.jpeg",
+    },
+    {
+      id: "cabalgatas", nombre: "Cabalgatas La Huella", sub: "Circuitos a caballo por la Quebrada",
+      anfitriones: ["Ezequiel Iván Mamaní"],
+      ubicacion: "Cabalgatas La Huella ofrece sus servicios de paseos a caballo por diversos circuitos de la localidad de Maimará y Tilcara. Para consultas personales, acercarse al Restaurante El Gaucho, ubicado en Belgrano esquina Lavalle, Maimará.",
+      categorias: ["cabalgata"], color: "#7A4F1E", colorAccent: "#C4874B", numero: "07",
+      bio: "La Huella es mucho más que una salida a caballo. Es un emprendimiento familiar construido con paciencia, trabajo diario y un profundo amor por sus animales. Cada caballo es parte de su historia: los alimentan tres veces al día, los cuidan, los acompañan cuando se enferman y se ocupan de su bienestar con responsabilidad y compromiso. Porque los caballos sienten, reconocen y generan vínculo.\n\nHoy cuentan con 20 caballos y 4 guías que comparten esta pasión. Ofrecen circuitos de distinta intensidad, para que cada persona pueda vivir la experiencia a su ritmo, en contacto con la naturaleza y desde el respeto. Nada los hace más felices que ver a quienes los visitan irse con una sonrisa, después de haber conectado con estos nobles compañeros de camino.",
+      historia: "Mi nombre es Ezequiel Iván Mamaní. Nací en Tilcara en 1984, me crié allí y desde hace seis años vivo en Maimará. Mi actividad principal es el trabajo en Correo Argentino, pero mi verdadera vocación está en los caballos, las cabalgatas y la gastronomía.\n\nProvengo de una familia de tradición gaucha, pertenecemos al Centro Gaucho Panchito Zerpa. Desde niño crecí entre caballos y costumbres de campo; el vínculo con ellos forma parte de mi identidad. Siempre soñé con dedicarme a esta actividad, aunque durante muchos años el trabajo formal no me lo permitió.\n\nCon el tiempo, y también por la necesidad de sostener el cuidado de mis propios animales, decidí transformar ese sueño en proyecto. Hace cuatro años comenzamos a trabajar en turismo de manera formal, aunque la vida de campo y los viajes a caballo fueron siempre parte de nuestra historia.\n\nMi primer caballo lo compré con mi segundo sueldo, allá por el año 2003. Desde entonces fui formando mi propia tropilla, que hoy cuenta con 23 caballos. Cada uno representa esfuerzo, compromiso y una elección de vida.",
+      anfitrionBios: [
+        { nombre: "Ezequiel Iván Mamaní", texto: "Los caballos requieren cuidado permanente y una dedicación constante. Más que una actividad económica, para mí es una responsabilidad y una pasión. Trabajo para sostenerlos y garantizar su bienestar, porque entiendo que el respeto por el animal es la base de todo lo que hacemos." }
+      ],
+      ofrecemos: [
+        { titulo: "Circuitos de cabalgata", desc: "Recorridos de distinta intensidad y duración por los paisajes más bellos de Maimará y alrededores, desde paseos contemplativos de 1 hora hasta aventuras de 4 horas." },
+        { titulo: "Cabalgata y enoturismo", desc: "Circuitos especiales que combinan la cabalgata con visita y degustación en bodegas locales de altura: La Celestina y Jesús Vilte." },
+        { titulo: "Salidas para todo tipo de grupo", desc: "Salidas desde una sola persona, con un guía por cada grupo de hasta 6 personas. Capacidad máxima de 20 personas por salida, con hasta 4 guías." }
+      ],
+      contacto: { whatsapp: "+54 9 388 4031134", instagram: "@ezequielmamani882", facebook: { nombre: "Cabalgatas La Huella", url: "https://www.facebook.com/cabalgatas.la.huella.2025" }, email: "maimaraturismorural@gmail.com" },
+      pagos: "Solamente transferencias y efectivo. La reserva queda confirmada con el pago del 50% del monto total.",
+      horarios: "Horario recomendado: 8:00 a 13:00 hs y de 15:00 a 19:00 hs. También ofrecemos salidas especiales nocturnas en noches de luna. La actividad puede realizarse durante todo el año; entre diciembre y marzo las salidas quedan sujetas a las condiciones climáticas. Reservas hasta las 20:00 hs del día anterior, o con un mínimo de 2 horas de anticipación (sujeto a disponibilidad).",
+      imgRetrato: "images/retratoEzequiel.jpeg", imgDet1: "images/cabalgatas/cabalgatas1.jpeg", imgDet2: "images/cabalgatas/cabalgatas2.jpeg",
     }
   ],
 
@@ -287,6 +307,84 @@ window.SITE_DATA = {
       incluye: ["Un refrigerio tradicional, caliente o refrescante."],
       dificultadDetalle: "Bajo. Pueden realizar esta actividad todas aquellas personas que deseen aproximarse y conocer más sobre el cultivo de flores y hortalizas. La propuesta implica un recorrido en torno a las plantaciones por senderos de tierra bajo la guía de Patricia.",
       img: "images/tierramia/flores1.jpeg", imgGal1: "images/tierramia/flores2.jpeg", imgGal2: "images/tierramia/flores3.jpeg", imgGal3: "images/tierramia/flores4.jpeg",
+    },
+
+    {
+      id: "lh-1", emprendimiento: "cabalgatas",
+      titulo: "Paleta del Pintor",
+      subtitulo: "Paseo contemplativo al pie de la Quebrada",
+      duracion: "1 hora", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Bajo", categoria: "cabalgata",
+      descripcion: "Maimará es un pequeño pueblo de la Quebrada de Humahuaca, región declarada Patrimonio de la Humanidad por la UNESCO. Se caracteriza por sus quintas frutihortícolas, cultivos de flores y viñedos que se extienden a ambas márgenes del Río Grande, al pie de la imponente formación natural conocida como la Paleta del Pintor.\n\nEste recorrido propone un paseo contemplativo al ritmo sereno de los caballos, transitando las tradicionales calles de tierra del pueblo y sus zonas productivas. Durante el trayecto bordeamos y atravesamos el Río Grande, recorriendo áreas donde abundan quintas de hortalizas, frutales, flores y viñedos de altura, en un paisaje que combina trabajo rural y belleza natural.\n\nEs una experiencia ideal para quienes desean un primer acercamiento a Maimará, conectando con su identidad, su producción y la majestuosidad de su entorno desde una perspectiva auténtica y cercana.",
+      queHaremos: "El punto de encuentro es la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nDesde allí partimos hacia el Puente Pachamama. Al cruzarlo, se abre ante nosotros la inmensidad de la Paleta del Pintor, al pie de la cual transcurre la mayor parte del trayecto.\n\nCabalgamos por un amplio camino entre el cerro y el río, atravesando zonas de quintas frutihortícolas que enriquecen el paisaje con sus colores y aromas.\n\nPara regresar, cruzamos el río (arroyo de bajo caudal) y retomamos el camino hacia el pueblo, finalizando el circuito en el mismo punto de partida.",
+      incluye: ["Recorrido guiado según descripción.", "Guía local idóneo.", "Seguros personales."],
+      dificultadDetalle: "Bajo. El recorrido se realiza por calles de tierra y senderos junto a quintas de hortalizas. Se cruza un arroyo de bajo caudal y no presenta ascensos pronunciados. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/paleta1.jpeg", imgGal1: "images/cabalgatas/paleta2.jpeg", imgGal2: "images/cabalgatas/paleta3.jpeg", imgGal3: "images/cabalgatas/paleta4.jpeg",
+    },
+    {
+      id: "lh-2", emprendimiento: "cabalgatas",
+      titulo: "Puente Natural",
+      subtitulo: "Hacia el arco de piedra de la Quebrada del Cementerio",
+      duracion: "2 horas (con 20 minutos de descanso en el Puente Natural)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Bajo", categoria: "cabalgata",
+      descripcion: "El Puente Natural emerge como un gesto silencioso de la tierra: un arco modelado pacientemente por el agua y el viento a lo largo del tiempo. Se emplaza en la Quebrada del Cementerio, allí donde las montañas jóvenes de conglomerados descienden y el cauce encuentra su camino hacia el acceso norte del pueblo.\n\nLa experiencia comienza por las tradicionales calles de tierra de Maimará, avanzando al paso tranquilo de los caballos, lo que permite disfrutar el entorno con calma y atención. Frente al cementerio se abre una de las vistas más profundas y silenciosas del paisaje local.\n\nLuego, el sendero se estrecha y nos conduce hacia el interior de la quebrada. A medida que ascendemos suavemente, el espacio se vuelve más amplio y luminoso, revelando formaciones modeladas por el agua y el viento. Finalmente, aparece el Puente Natural: un arco imponente, completamente formado por procesos naturales, que sorprende por su tamaño y su armonía con el entorno.",
+      queHaremos: "El punto de encuentro es la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nDesde allí atravesamos las tradicionales calles de tierra del pueblo en dirección al acceso norte. Luego nos internamos en la Quebrada del Cementerio, ascendiendo suavemente por el lecho seco, rodeados de formaciones modeladas por el agua y el viento.\n\nDurante el trayecto realizamos una parada en el Mirador La Loma, un punto panorámico desde el cual se obtiene una hermosa vista de Maimará y su entorno productivo, con el valle y los cerros como telón de fondo.\n\nContinuamos cabalgando hasta alcanzar el Puente Natural. Allí desmontamos para descansar unos minutos y realizamos una breve caminata hacia un mirador cercano, desde donde se aprecia una amplia y serena vista del pueblo. El regreso se realiza por el mismo sendero hasta el punto de partida.",
+      incluye: ["Recorrido guiado según descripción.", "Guía local idóneo.", "Seguros personales."],
+      dificultadDetalle: "Bajo. El recorrido se realiza por las calles de tierra del pueblo y luego por el lecho pedregoso de la Quebrada del Cementerio. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/puentenatural1.jpeg", imgGal1: "images/cabalgatas/puentenatural2.jpeg", imgGal2: "images/cabalgatas/puentenatural3.jpeg", imgGal3: "images/cabalgatas/puentenatural4.jpeg",
+    },
+    {
+      id: "lh-3", emprendimiento: "cabalgatas",
+      titulo: "Bella Vista",
+      subtitulo: "Ascenso por la Paleta del Pintor hasta el mirador panorámico",
+      duracion: "2 horas (con 15 minutos de descanso en una arboleda)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Bajo", categoria: "cabalgata",
+      descripcion: "Maimará es tierra de agricultores. A ambas márgenes del Río Grande, las parcelas hortícolas, frutales y de flores dibujan un mosaico vivo que se transforma con cada estación. El río, las quebradas y los cerros multicolores abrazan el pueblo y crean miradores naturales desde donde el paisaje se revela en toda su amplitud.\n\nEste recorrido propone un paseo sereno y contemplativo por las calles de tierra más tranquilas del pueblo, avanzando junto al río e internándose entre quintas y cultivos. El sendero asciende progresivamente por la Paleta del Pintor, entre cardonales y formaciones de intensos colores, hasta alcanzar uno de los puntos panorámicos más amplios y bellos del valle.\n\nUna experiencia que integra naturaleza, identidad rural y vistas inolvidables.",
+      queHaremos: "Partimos desde el punto de encuentro en la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nDesde allí recorremos las calles de tierra en dirección al pie de la imponente Paleta del Pintor. Cruzamos el Puente Pachamama y nos internamos en un sendero que avanza entre el cerro, las quintas que se extienden a sus pies y el Río Grande.\n\nContinuamos por un camino vecinal que asciende y atraviesa el cerro, dejando atrás el paisaje productivo para adentrarnos en una zona de cardonales y formaciones multicolores, acompañados por una de las vistas más emblemáticas de Maimará.\n\nAl finalizar el recorrido realizamos una pausa a la sombra de los árboles, acomodamos las monturas y disfrutamos del paisaje antes de emprender el regreso por el mismo sendero hasta el punto de partida.",
+      incluye: ["Recorrido guiado según descripción.", "Guía local idóneo.", "Seguros personales."],
+      dificultadDetalle: "Bajo. El recorrido se realiza por calles de tierra y senderos junto a quintas de hortalizas. Incluye un tramo de ascenso y un sector que atraviesa el cerro; no obstante, se trata de un camino amplio, apto incluso para el tránsito vehicular. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/bellavista1.jpeg", imgGal1: "images/cabalgatas/bellavista2.jpeg", imgGal2: "images/cabalgatas/bellavista3.jpeg", imgGal3: "images/cabalgatas/bellavista4.jpeg",
+    },
+    {
+      id: "lh-4", emprendimiento: "cabalgatas",
+      titulo: "Castillos de Huichaira",
+      subtitulo: "Geoformas naturales en la quebrada de Huichaira",
+      duracion: "4 horas (con 30 minutos de descanso en los Castillos)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Medio", categoria: "cabalgata",
+      descripcion: "Los Castillos de Huichaira son impactantes formaciones naturales ubicadas en las cercanías del barrio Sumaj Pacha, dentro de la quebrada del mismo nombre. Estas geoformas, compuestas por arena, arcilla y antiguos sedimentos, fueron modeladas pacientemente por la acción del viento y la lluvia a lo largo de miles de años.\n\nSus siluetas caprichosas evocan castillos, torres y murallas que emergen en medio del paisaje andino. No se trata de construcciones humanas, sino de auténticas esculturas naturales que sorprenden por su tamaño, textura y tonalidades. Su carácter escénico y su singular belleza las convierten en un sitio muy apreciado por senderistas, fotógrafos y amantes de la naturaleza.\n\nNuestra propuesta es un paseo largo y contemplativo, ideal para quienes tienen experiencia previa montando y disfrutan de la tranquilidad y el silencio. El recorrido alterna pintorescas calles de tierra, senderos que atraviesan quintas de hortalizas y flores, y profundas quebradas modeladas por el agua y el viento.",
+      queHaremos: "El punto de encuentro es la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nDesde allí iniciamos el recorrido por las tranquilas calles de tierra del pueblo en dirección al pie de la Paleta del Pintor. Cruzamos el Puente Pachamama y continuamos hacia el norte por un sendero que bordea el cerro, las quintas y el cauce del Río Grande.\n\nA la altura de Bodegas Dupont, atravesamos el río y tomamos un sendero paralelo a su cauce. Cabalgamos entre el río y las quintas hasta avistar el Puente Verde, donde nos internamos en la quebrada de Huichaira. Ascendemos por el lecho seco hasta alcanzar los Castillos de Huichaira. Allí realizamos una pausa para descansar y disfrutar del paisaje.\n\nEl retorno se realiza por un camino paralelo a la ruta hasta la prolongación de calle Belgrano, en el barrio San Pedrito. Al llegar a la plazoleta Cristo Norte, el tramo final es opcional: por calle Belgrano (con vistas a los viñedos de Bodega El Bayeh) o por calle 9 de Julio, rodeada de quintas y chacras familiares.",
+      incluye: ["Recorrido guiado según descripción."],
+      dificultadDetalle: "Medio. El recorrido transita por calles de tierra y senderos junto a quintas de hortalizas. Se cruza un arroyo de bajo caudal y se incluye un ascenso leve por el lecho pedregoso de la Quebrada de Huichaira, sin pendientes pronunciadas. Debido a la duración del circuito, se recomienda para personas con experiencia previa en cabalgatas. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/castillos1.jpeg", imgGal1: "images/cabalgatas/castillos2.jpeg", imgGal2: "images/cabalgatas/castillos3.jpeg", imgGal3: "images/cabalgatas/castillos4.jpeg",
+    },
+    {
+      id: "lh-5", emprendimiento: "cabalgatas",
+      titulo: "Maimará – Tilcara",
+      subtitulo: "Senderos históricos que unen dos pueblos",
+      duracion: "4 horas (con 30 minutos de descanso en el Puente del Pucará)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Medio", categoria: "cabalgata",
+      descripcion: "Entre Maimará y Tilcara hay 7 kilómetros de distancia por la Ruta Nacional N° 9. Sin embargo, esta propuesta invita a unir ambos pueblos a través de antiguos senderos vecinales que bordean el cerro, se internan en el río y atraviesan quintas sembradas, recuperando caminos que durante generaciones conectaron a sus habitantes.\n\nPor estas sendas transitaban vecinos que iban en busca de semillas, papas, maíces o flores; que se ayudaban en las tareas de campo o compartían celebraciones y festividades. Este recorrido revive ese espíritu de intercambio y comunidad.\n\nUna experiencia serena y contemplativa, percibiendo los aromas del río, de la tierra trabajada y de los cardones que aparecen a lo largo del trayecto, mientras el paisaje se abre entre cerros y cultivos.",
+      queHaremos: "El punto de encuentro es la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nNos dirigimos por las calles de tierra del pueblo hacia la Paleta del Pintor. Cruzamos el Puente Pachamama y continuamos hacia el norte bordeando el cerro, las quintas y el Río Grande. A la altura de Bodegas Dupont, atravesamos el río y seguimos por un sendero paralelo a su cauce. A la altura del Puente Negro, cruzamos nuevamente para internarnos en el Camino de Chicapa, que conecta con el sector conocido como 5 de Octubre.\n\nAvanzamos hacia el Puente del Pucará y continuamos rumbo a Tilcara, alternando senderos rurales con amplias vistas del valle. Realizamos una pausa en la zona del Puente del Pucará para descansar y acomodar las monturas, antes de emprender el regreso por el mismo camino hasta el punto de partida.",
+      incluye: ["Recorrido guiado según descripción."],
+      dificultadDetalle: "Medio. El recorrido se realiza por calles de tierra y senderos junto a quintas de hortalizas. Se cruzan arroyos de bajo caudal en dos oportunidades; no hay ascensos pronunciados. Incluye un tramo de ascenso por un camino amplio, apto para el tránsito vehicular. Debido a la duración del circuito, se recomienda para personas con experiencia previa en cabalgatas. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/tilcara1.jpeg", imgGal1: "images/cabalgatas/tilcara2.jpeg", imgGal2: "images/cabalgatas/tilcara3.jpeg", imgGal3: "images/cabalgatas/tilcara4.jpeg",
+    },
+    {
+      id: "lh-6", emprendimiento: "cabalgatas",
+      titulo: "A la Bodega La Celestina",
+      subtitulo: "Cabalgata y enoturismo en familia",
+      duracion: "2 horas (aprox. 1 hora de cabalgata y 45 min a 1 hora en la bodega)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Bajo", categoria: "cabalgata",
+      descripcion: "En las afueras de Maimará, entre cerros y viñedos que desafían la altura, nació un sueño familiar.\n\nBodega La Celestina no comenzó como una empresa, sino como una inquietud profunda de la tercera generación de la familia Sarabia. Agricultores de toda la vida, decidieron mirar sus tierras con otros ojos y apostar a la vid como legado. En 2013, Cristian Sarabia dio el primer paso al traer desde Cafayate 26 plantas de Torrontés. Todo se fue construyendo «a pulmón», con trabajo compartido y aprendizaje constante. El objetivo es claro: plantar viñas que permanezcan por generaciones.\n\nEl nombre de la bodega rinde homenaje a Doña Celestina Cruz de Sarabia, quien escuchó y acompañó el sueño antes de que se hiciera realidad. Desde Cabalgatas La Huella, los invitamos a descubrir este emblemático emprendimiento de Maimará, donde la tierra, el esfuerzo y la historia familiar se transforman en vino y en experiencia compartida.",
+      queHaremos: "El punto de encuentro es la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nPartimos en dirección al Puente Pachamama. Al cruzarlo, la imponente Paleta del Pintor acompaña gran parte del recorrido. Cabalgamos por un amplio camino entre el cerro y el Río Grande, atravesando zonas de quintas frutihortícolas.\n\nMás adelante cruzamos el río —de bajo caudal— y continuamos por un sendero que bordea su cauce hasta llegar a la parte posterior de la Bodega La Celestina. Al arribar, realizamos una visita guiada junto a sus propietarios, recorriendo el viñedo y conociendo la historia del emprendimiento.\n\nEl regreso se realiza por prolongación Belgrano hasta la plazoleta Cristo Norte. Desde allí, el tramo final es opcional: por calle Belgrano (con vistas a los viñedos de Bodega El Bayeh) o por calle 9 de Julio, rodeada de quintas y chacras familiares.",
+      incluye: ["Recorrido guiado según descripción.", "Guía local idóneo.", "Seguros personales.", "Recorrido y degustación en Bodega La Celestina."],
+      dificultadDetalle: "Bajo. El recorrido se realiza por calles de tierra y senderos junto a quintas de hortalizas. Se cruza un arroyo de bajo caudal y no presenta ascensos pronunciados. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/celestina1.jpeg", imgGal1: "images/cabalgatas/celestina2.jpeg", imgGal2: "images/cabalgatas/celestina3.jpeg", imgGal3: "images/cabalgatas/celestina4.jpeg",
+    },
+    {
+      id: "lh-7", emprendimiento: "cabalgatas",
+      titulo: "A la Bodega Jesús Vilte",
+      subtitulo: "Historia y vino a caballo",
+      duracion: "2 horas (aprox. 1 hora de cabalgata y 45 min a 1 hora en la bodega)", grupo: "Desde 1 persona (hasta 20 con guías)", dificultad: "Bajo", categoria: "cabalgata",
+      descripcion: "Bodega Jesús Vilte representa el tesón y el sacrificio de una familia descendiente de agricultores maimareños. Sus vinos llevan el nombre Molino de Chicapa, en homenaje a Santiago Madregal, quien introdujo en Maimará el primer molino de piedra hidráulico para granos, construido con piedras traídas desde Iruya.\n\nLa historia de la finca se remonta a 1860, cuando el bisabuelo de Jesús adquirió estas tierras. Su hija Blanca Madregal continuó el legado y lo transmitió a sus hijos, entre ellos Jesús, quien durante muchos años se dedicó al cultivo de flores en el mismo predio donde hoy se extienden los viñedos. Desde 2012, la bodega elabora tintos secos sin filtrar, decantados con paciencia y pensados para la guarda.\n\nDesde Cabalgatas La Huella, les proponemos un recorrido que culmina con la visita a esta bodega familiar, donde agricultores de tradición se transformaron en viñateros, manteniendo viva la historia y el carácter de la tierra quebradeña.",
+      queHaremos: "Partimos desde nuestro punto de encuentro en la Estación del Ferrocarril (intersección de calles Necochea y Coronel Arias).\n\nRecorremos las calles de tierra del pueblo y nos internamos por la calle 9 de Julio, que corre paralela a las vías del tren. Es un tramo sereno, rodeado de quintas de hortalizas y chacras familiares, donde también se encuentran la finca y los viñedos de Bodega Jesús Vilte.\n\nA la altura de la Plazoleta Cristo Norte ascendemos hacia la prolongación de calle Belgrano y continuamos rumbo al Barrio San Francisco, donde se sitúa la bodega. Al llegar, realizamos una visita guiada junto a sus propietarios, conociendo la historia familiar y el proceso de elaboración de sus vinos. La experiencia culmina con una degustación.\n\nLuego emprendemos el regreso por el mismo camino, descendiendo hacia el casco del pueblo.",
+      incluye: ["Recorrido guiado según descripción.", "Guía local idóneo.", "Seguros personales.", "Recorrido y degustación en Bodega Jesús Vilte."],
+      dificultadDetalle: "Bajo. El recorrido se realiza por calles de tierra y senderos junto a quintas de hortalizas; no hay ascensos pronunciados. Se recomienda calzado cómodo y cerrado, gorra o sombrero, protector solar y agua individual.",
+      img: "images/cabalgatas/vilte1.jpeg", imgGal1: "images/cabalgatas/vilte2.jpeg", imgGal2: "images/cabalgatas/vilte3.jpeg", imgGal3: "images/cabalgatas/vilte4.jpeg",
     }
   ],
 
@@ -297,7 +395,8 @@ window.SITE_DATA = {
     { id: "rural", label_es: "Vida rural", label_en: "Rural life" },
     { id: "herbolaria", label_es: "Herbolaria", label_en: "Herbalism" },
     { id: "agricola", label_es: "Agrícola", label_en: "Agricultural" },
-    { id: "sustentabilidad", label_es: "Sustentabilidad", label_en: "Sustainability" }
+    { id: "sustentabilidad", label_es: "Sustentabilidad", label_en: "Sustainability" },
+    { id: "cabalgata", label_es: "Cabalgata", label_en: "Horse riding" }
   ],
 
   faqs: [

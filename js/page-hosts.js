@@ -66,7 +66,22 @@
                   h('div', null,
                     h('div', { class: 'eyebrow', style: { fontSize: '10px', marginBottom: '6px' } }, lang === 'es' ? 'Contacto' : 'Contact'),
                     h('div', null,
-                      ...Object.entries(emp.contacto || {}).map(([k, v]) => h('div', null, `${k}: ${v}`))
+                      ...Object.entries(emp.contacto || {}).map(([k, v]) => {
+                        if (k === 'facebook' && v && typeof v === 'object') {
+                          return h('div', null, h('a', { href: v.url, target: '_blank', rel: 'noopener', style: { color: 'inherit' } }, `Facebook: ${v.nombre}`));
+                        }
+                        const hrefs = {
+                          whatsapp: `https://wa.me/${(v || '').replace(/[^0-9]/g, '')}`,
+                          instagram: `https://instagram.com/${(v || '').replace('@', '')}`,
+                          email: `mailto:${v}`
+                        };
+                        const href = hrefs[k];
+                        return h('div', null,
+                          href
+                            ? h('a', { href, target: k !== 'email' ? '_blank' : undefined, rel: k !== 'email' ? 'noopener' : undefined, style: { color: 'inherit' } }, `${k}: ${v}`)
+                            : `${k}: ${v}`
+                        );
+                      })
                     )
                   ),
                   emp.sello && h('div', { style: { gridColumn: 'span 2', marginTop: '10px', padding: '10px 14px', background: 'var(--c-papel-2)', fontSize: '12px' } }, '✦ ', emp.sello)

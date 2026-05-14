@@ -31,9 +31,10 @@
       "name": "Inti Pacha",
       "description": "Espacio familiar en Maimará con cocina andina, huerta agroecológica y productos artesanales. Sello Cocinar del Ministerio de Turismo.",
       "url": "https://turismoruralmaimara.com.ar/",
+      "telephone": "+5493885090436",
       "address": { "@type": "PostalAddress", "streetAddress": "Pasaje 2 de Febrero, Barrio Matadero", "addressLocality": "Maimará", "addressRegion": "Jujuy", "addressCountry": "AR" },
       "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday", "PublicHolidays"], "opens": "17:00", "closes": "20:00" }],
-      "sameAs": ["https://instagram.com/intipacha_maimara"]
+      "sameAs": ["https://instagram.com/intipacha_maimara", "https://www.facebook.com/profile.php?id=61576988424322"]
     },
     {
       "@context": "https://schema.org", "@type": "LocalBusiness",
@@ -55,7 +56,7 @@
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "10:00", "closes": "12:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "15:00", "closes": "17:00" }
       ],
-      "sameAs": ["https://instagram.com/manitostejedoras"]
+      "sameAs": ["https://instagram.com/ortenciaquispe23", "https://facebook.com/ortecia.quispe"]
     },
     {
       "@context": "https://schema.org", "@type": "LocalBusiness",
@@ -68,14 +69,14 @@
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "10:00", "closes": "13:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "15:00", "closes": "18:00" }
       ],
-      "sameAs": ["https://instagram.com/qullana_argentina"]
+      "sameAs": ["https://instagram.com/qullana_argentina", "https://facebook.com/qullanaremediosnaturales"]
     },
     {
       "@context": "https://schema.org", "@type": "LocalBusiness",
       "name": "Tejidos Alborada",
       "description": "Taller de bordado y tejido andino en Maimará con Nora Quispe: bordado de flores, flores de lana y circuito textil completo.",
       "url": "https://turismoruralmaimara.com.ar/",
-      "telephone": "+5493884728730",
+      "telephone": "+5493884752873",
       "address": { "@type": "PostalAddress", "streetAddress": "Calle Pedro Manzur, Barrio Güemes", "addressLocality": "Maimará", "addressRegion": "Jujuy", "addressCountry": "AR" },
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "10:00", "closes": "12:00" },
@@ -88,11 +89,13 @@
       "name": "Tierra Mía",
       "description": "Visita al campo de flores y hortalizas al pie de la Paleta del Pintor, Maimará. Más de 30 años de cultivo familiar con Patricia Cruz.",
       "url": "https://turismoruralmaimara.com.ar/",
+      "telephone": "+5493883299741",
       "address": { "@type": "PostalAddress", "streetAddress": "Coronel Zelaya esq. Froilán Calvetti (Costanera)", "addressLocality": "Maimará", "addressRegion": "Jujuy", "addressCountry": "AR" },
       "openingHoursSpecification": [
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "10:00", "closes": "12:00" },
         { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "16:00", "closes": "19:00" }
-      ]
+      ],
+      "sameAs": ["https://instagram.com/maimara.turismorural", "https://www.facebook.com/profile.php?id=61571458094018"]
     }
   ].forEach(injectJsonLd);
 
