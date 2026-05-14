@@ -1,0 +1,68 @@
+<h2>Sección 3 — Archivos de rastreo y alt text</h2>
+<p class="subtitle">Los tres archivos que Google busca apenas llega al dominio, más los textos alternativos en las imágenes.</p>
+
+<div class="section">
+  <h3>robots.txt — le dice a Google qué rastrear</h3>
+  <div class="mockup">
+    <div class="mockup-header">turismoruralmaimara.com.ar/robots.txt</div>
+    <div class="mockup-body" style="font-family: monospace; font-size: 13px; line-height: 1.8; background: #1e1e1e; color: #ccc; padding: 16px;">
+      <span style="color:#6a9955"># Turismo Rural Maimará</span><br>
+      User-agent: *<br>
+      Allow: /<br><br>
+      Sitemap: https://turismoruralmaimara.com.ar/sitemap.xml
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>sitemap.xml — mapa del sitio para Google</h3>
+  <div class="mockup">
+    <div class="mockup-header">turismoruralmaimara.com.ar/sitemap.xml</div>
+    <div class="mockup-body" style="font-family: monospace; font-size: 12px; line-height: 1.8; background: #1e1e1e; color: #9cdcfe; padding: 16px;">
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">turismoruralmaimara.com.ar/</span> <span style="color:#6a9955">← página raíz</span><span style="color:#4ec9b0">&lt;/url&gt;</span><br>
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">.../?page=about</span> <span style="color:#6a9955">← Sobre nosotros</span><span style="color:#4ec9b0">&lt;/url&gt;</span><br>
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">.../?page=experiences</span> <span style="color:#6a9955">← Experiencias</span><span style="color:#4ec9b0">&lt;/url&gt;</span><br>
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">.../?page=hosts</span> <span style="color:#6a9955">← Anfitriones</span><span style="color:#4ec9b0">&lt;/url&gt;</span><br>
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">.../?page=visit</span> <span style="color:#6a9955">← Visitanos</span><span style="color:#4ec9b0">&lt;/url&gt;</span><br>
+      <span style="color:#4ec9b0">&lt;url&gt;</span> <span style="color:#ce9178">.../?page=contact</span> <span style="color:#6a9955">← Contacto</span><span style="color:#4ec9b0">&lt;/url&gt;</span>
+    </div>
+  </div>
+  <p style="font-size: 13px; opacity: 0.75; margin-top: 8px;">Nota: como el SPA usa JS para cambiar de página, el sitemap apunta al mismo archivo HTML con parámetros de consulta (<code>?page=</code>). No es perfecto pero le da señales a Google sobre las secciones.</p>
+</div>
+
+<div class="section">
+  <h3>Alt text en imágenes — actualmente vacío</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">Antes ❌</div>
+      <div class="mockup-body" style="font-family:monospace; font-size:12px; color:#f44; background:#1e1e1e; padding:12px;">
+        imgBox('images/intipacha/cocina1.jpeg', '', '4/5')
+        <br><br>
+        <span style="color:#666">→ alt="" (vacío, Google no sabe qué muestra)</span>
+      </div>
+    </div>
+    <div class="mockup">
+      <div class="mockup-header">Después ✅</div>
+      <div class="mockup-body" style="font-family:monospace; font-size:12px; color:#4ec9b0; background:#1e1e1e; padding:12px;">
+        imgBox('images/intipacha/cocina1.jpeg', 'Cocina andina en Inti Pacha, Maimará', '4/5')
+        <br><br>
+        <span style="color:#6a9955">→ Indexable, aparece en Google Images</span>
+      </div>
+    </div>
+  </div>
+  <p style="font-size: 13px; opacity: 0.75; margin-top: 8px;">Se agregarán descripciones a todas las imágenes en los archivos <code>js/page-*.js</code>. Beneficia Google Images y accesibilidad.</p>
+</div>
+
+<div class="section">
+  <h3>Resumen de archivos nuevos</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 13px;">
+    <div style="background:#1e3a1e; border:1px solid #3a6b3a; border-radius:6px; padding:10px;">✅ <strong>robots.txt</strong> — nuevo archivo</div>
+    <div style="background:#1e3a1e; border:1px solid #3a6b3a; border-radius:6px; padding:10px;">✅ <strong>sitemap.xml</strong> — nuevo archivo</div>
+    <div style="background:#1e2a3a; border:1px solid #3a5a6b; border-radius:6px; padding:10px;">✏️ <strong>Turismo Rural Maimara.html</strong> — ampliar &lt;head&gt;</div>
+    <div style="background:#1e2a3a; border:1px solid #3a5a6b; border-radius:6px; padding:10px;">✏️ <strong>js/page-*.js</strong> — agregar alt text</div>
+    <div style="background:#3a2a1e; border:1px solid #6b4a3a; border-radius:6px; padding:10px;">➕ <strong>seo.js</strong> — nuevo: JSON-LD dinámico</div>
+    <div style="background:#3a2a1e; border:1px solid #6b4a3a; border-radius:6px; padding:10px;">➕ <strong>favicon.ico + icons</strong> — nuevo</div>
+  </div>
+</div>
+
+<p style="font-size: 14px; opacity: 0.7; margin-top: 16px;">¿La Sección 3 está bien? Respondé en la terminal.</p>

@@ -1,0 +1,105 @@
+<h2>Sección 2 — JSON-LD: Datos estructurados</h2>
+<p class="subtitle">Esto le dice a Google exactamente qué es cada emprendimiento y qué ofrece — activa "rich snippets" en los resultados.</p>
+
+<div class="section">
+  <h3>¿Qué son los rich snippets?</h3>
+  <div class="mockup">
+    <div class="mockup-header">Google Search — Resultado CON datos estructurados</div>
+    <div class="mockup-body" style="font-family: Arial, sans-serif; padding: 16px;">
+      <div style="color: #1a0dab; font-size: 18px;">Turismo Rural Maimará · Experiencias en la Quebrada</div>
+      <div style="color: #006621; font-size: 13px;">turismoruralmaimara.com.ar</div>
+      <div style="color: #545454; font-size: 14px; margin: 4px 0;">Familias de Maimará con experiencias rurales auténticas en Jujuy.</div>
+      <div style="margin-top: 8px; display:flex; gap: 16px; flex-wrap: wrap;">
+        <div style="background:#f8f9fa; border:1px solid #ddd; border-radius:8px; padding:8px 12px; font-size:13px;">
+          <div style="font-weight:bold; color:#1a0dab;">🏡 Inti Pacha</div>
+          <div style="color:#545454; font-size:12px;">Cocina andina · Maimará</div>
+        </div>
+        <div style="background:#f8f9fa; border:1px solid #ddd; border-radius:8px; padding:8px 12px; font-size:13px;">
+          <div style="font-weight:bold; color:#1a0dab;">🧶 Manitos Tejedoras</div>
+          <div style="color:#545454; font-size:12px;">Tejido ancestral · Maimará</div>
+        </div>
+        <div style="background:#f8f9fa; border:1px solid #ddd; border-radius:8px; padding:8px 12px; font-size:13px;">
+          <div style="font-weight:bold; color:#1a0dab;">🌿 Qullana</div>
+          <div style="color:#545454; font-size:12px;">Plantas medicinales · Maimará</div>
+        </div>
+      </div>
+      <div style="margin-top: 8px; font-size: 13px; color: #545454;">
+        <span style="color: #f4b400;">★★★★★</span> · Turismo rural · Abierto: Sáb–Dom 17:00–20:00
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Bloques JSON-LD que se agregarán al &lt;head&gt;</h3>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+    <div style="background:#1e1e1e; border-radius:8px; padding:12px;">
+      <div style="color:#4ec9b0; font-size:12px; font-weight:bold; margin-bottom:6px;">① TouristDestination (sitio raíz)</div>
+      <div style="color:#9cdcfe; font-size:11px; line-height:1.6; font-family:monospace;">
+        @type: TouristDestination<br>
+        name: "Turismo Rural Maimará"<br>
+        description: "Red de familias..."<br>
+        url: turismoruralmaimara.com.ar<br>
+        geo: Maimará, Jujuy, AR<br>
+        image: maices.jpeg
+      </div>
+    </div>
+    <div style="background:#1e1e1e; border-radius:8px; padding:12px;">
+      <div style="color:#dcdcaa; font-size:12px; font-weight:bold; margin-bottom:6px;">② LocalBusiness × 6 emprendimientos</div>
+      <div style="color:#9cdcfe; font-size:11px; line-height:1.6; font-family:monospace;">
+        @type: LocalBusiness<br>
+        name: "Inti Pacha" (y cada uno)<br>
+        address: calle, Maimará, Jujuy<br>
+        telephone: WhatsApp<br>
+        openingHours: Sáb–Dom...<br>
+        sameAs: Instagram URL
+      </div>
+    </div>
+    <div style="background:#1e1e1e; border-radius:8px; padding:12px;">
+      <div style="color:#c586c0; font-size:12px; font-weight:bold; margin-bottom:6px;">③ TouristAttraction × 6 (experiencias)</div>
+      <div style="color:#9cdcfe; font-size:11px; line-height:1.6; font-family:monospace;">
+        @type: TouristAttraction<br>
+        name: "Cocina participativa..."<br>
+        description: texto completo<br>
+        duration: PT3H<br>
+        audience: Todo público<br>
+        provider: → Inti Pacha
+      </div>
+    </div>
+    <div style="background:#1e1e1e; border-radius:8px; padding:12px;">
+      <div style="color:#ce9178; font-size:12px; font-weight:bold; margin-bottom:6px;">④ FAQPage (preguntas frecuentes)</div>
+      <div style="color:#9cdcfe; font-size:11px; line-height:1.6; font-family:monospace;">
+        @type: FAQPage<br>
+        Q: "¿Cómo reservar?"<br>
+        Q: "¿Es necesario experiencia?"<br>
+        Q: "¿Cómo se paga?"<br>
+        Q: "¿Apto para niños?"<br>
+        → Aparece desplegado en Google
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>FAQ desplegado en Google (muy valioso para operadores)</h3>
+  <div class="mockup">
+    <div class="mockup-header">Google Search — FAQPage schema</div>
+    <div class="mockup-body" style="font-family: Arial, sans-serif; padding: 12px; font-size: 14px;">
+      <div style="color: #1a0dab; font-size: 16px; margin-bottom: 4px;">Turismo Rural Maimará · turismoruralmaimara.com.ar</div>
+      <div style="border-top: 1px solid #ddd; margin-top: 8px; padding-top: 8px;">
+        <div style="display:flex; justify-content:space-between; padding: 6px 0; color:#202124; cursor:pointer;">
+          <span>▶ ¿Cómo reservar una experiencia?</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding: 6px 0; color:#202124; border-top:1px solid #eee; cursor:pointer;">
+          <span>▶ ¿Las experiencias son aptas para niños?</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; padding: 6px 0; color:#202124; border-top:1px solid #eee; cursor:pointer;">
+          <span>▶ ¿Cómo se puede pagar?</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p style="font-size: 14px; opacity: 0.7;">¿Esta sección te parece bien? Respondé en la terminal.</p>

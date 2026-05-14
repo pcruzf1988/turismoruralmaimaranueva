@@ -71,8 +71,8 @@
               ),
               h('p', { style: { fontSize: '17px', lineHeight: '1.65' } },
                 lang === 'es'
-                  ? 'A 2.383 metros sobre el nivel del mar, en la Quebrada de Humahuaca —Patrimonio Cultural de la Humanidad por UNESCO desde 2003—. Maimará en aymara significa «estrella que cae» o «lugar donde se posa la estrella».'
-                  : 'At 2,383 m above sea level, in the Quebrada de Humahuaca — UNESCO World Heritage Site since 2003. In Aymara, Maimará means "falling star" or "place where the star rests".'
+                  ? 'A 2.383 metros sobre el nivel del mar, en la Quebrada de Humahuaca —Patrimonio Cultural de la Humanidad por UNESCO desde 2003—.'
+                  : 'At 2,383 m above sea level, in the Quebrada de Humahuaca — UNESCO World Heritage Site since 2003.'
               )
             ),
             h('div', { class: 'reveal about-img' }, imgBox('images/maices.jpeg', 'Postal de Maimará al atardecer', '4/3'))

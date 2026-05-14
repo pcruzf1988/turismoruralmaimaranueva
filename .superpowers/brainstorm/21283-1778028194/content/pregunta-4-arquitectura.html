@@ -1,0 +1,27 @@
+<h2>Pregunta 4 de 4 — Nivel de cambio aceptable</h2>
+<p class="subtitle">El sitio actual genera todo el contenido con JavaScript. Google puede leerlo, pero tarda más y es menos confiable. ¿Cuánto estás dispuesto a cambiar?</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Solo mejoras al HTML actual — sin tocar la arquitectura</h3>
+      <p>Agregar meta tags, Open Graph, datos estructurados JSON-LD, sitemap.xml, robots.txt, y optimizar imágenes. Rápido, sin riesgo. Google igual renderiza el JS, pero más lento.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Mejoras al HTML + una capa PHP de pre-renderizado</h3>
+      <p>Un archivo PHP (index.php) que sirve HTML estático a los buscadores y el SPA normal a los usuarios. Mayor impacto SEO, moderada complejidad.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Convertir el sitio a páginas HTML estáticas</h3>
+      <p>Máximo SEO: cada sección es un archivo .html independiente. Requiere más trabajo pero el resultado es el más indexable. Hostinger lo maneja perfecto.</p>
+    </div>
+  </div>
+</div>
+<p style="margin-top: 20px; font-size: 14px; opacity: 0.7;">Respondé en la terminal si tenés dudas sobre alguna opción.</p>

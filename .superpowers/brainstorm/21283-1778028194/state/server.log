@@ -1,0 +1,22 @@
+{"type":"server-started","port":50301,"host":"127.0.0.1","url_host":"localhost","url":"http://localhost:50301","screen_dir":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content","state_dir":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/state"}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-1-hosting.html"}
+{"source":"user-event","type":"click","text":"A\n    \n      GitHub Pages / Netlify / Vercel (free)\n      Sitio estático sin servidor propio. Muy común para proyectos pequeños.","choice":"a","id":null,"timestamp":1778028296662}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/waiting-1.html"}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-3-objetivo.html"}
+{"source":"user-event","type":"click","text":"A\n    \n      Turistas argentinos que planifican viaje a Jujuy / Quebrada\n      Ej: \"qué hacer en maimará\", \"turismo quebrada de humahuaca\", \"experiencias jujuy\"","choice":"a","id":null,"timestamp":1778029995446}
+{"source":"user-event","type":"click","text":"C\n    \n      Operadores turísticos / agencias de viaje\n      Ej: \"experiencias rurales para grupos jujuy\", \"proveedores turismo quebrada\"","choice":"c","id":null,"timestamp":1778029996462}
+{"source":"user-event","type":"click","text":"A\n    \n      Turistas argentinos que planifican viaje a Jujuy / Quebrada\n      Ej: \"qué hacer en maimará\", \"turismo quebrada de humahuaca\", \"experiencias jujuy\"","choice":"a","id":null,"timestamp":1778030023795}
+{"source":"user-event","type":"click","text":"C\n    \n      Operadores turísticos / agencias de viaje\n      Ej: \"experiencias rurales para grupos jujuy\", \"proveedores turismo quebrada\"","choice":"c","id":null,"timestamp":1778030037378}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-4-arquitectura.html"}
+{"source":"user-event","type":"click","text":"B\n    \n      Mejoras al HTML + una capa PHP de pre-renderizado\n      Un archivo PHP (index.php) que sirve HTML estático a los buscadores y el SPA normal a los usuarios. Mayor impacto SEO, moderada complejidad.","choice":"b","id":null,"timestamp":1778030302594}
+{"source":"user-event","type":"click","text":"A\n    \n      Solo mejoras al HTML actual — sin tocar la arquitectura\n      Agregar meta tags, Open Graph, datos estructurados JSON-LD, sitemap.xml, robots.txt, y optimizar imágenes. Rápido, sin riesgo. Google igual renderiza el JS, pero más lento.","choice":"a","id":null,"timestamp":1778030353694}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/waiting-2.html"}
+{"type":"screen-updated","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/waiting-2.html"}
+{"type":"screen-updated","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-1-hosting.html"}
+{"type":"screen-updated","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-3-objetivo.html"}
+{"type":"screen-updated","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/pregunta-4-arquitectura.html"}
+{"type":"screen-updated","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/waiting-1.html"}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/diseno-1-head.html"}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/diseno-2-jsonld.html"}
+{"type":"screen-added","file":"/Users/pedrocruz/Downloads/Turismo Rural Maimara (1)/.superpowers/brainstorm/21283-1778028194/content/diseno-3-archivos.html"}
+{"type":"server-stopped","reason":"idle timeout"}
