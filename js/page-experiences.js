@@ -21,8 +21,8 @@
           h('h1', { class: 'reveal-clip', style: { fontSize: 'clamp(48px, 8vw, 110px)' } }, lang === 'es' ? 'Experiencias' : 'Experiences'),
           h('p', { class: 'reveal', style: { fontSize: '19px', maxWidth: '620px', marginTop: '24px', color: 'var(--c-tinta-soft)' } },
             lang === 'es'
-              ? 'Cada experiencia se hace en pequeño grupo, con reserva previa. Filtrá por tipo o por anfitrión y reservá por correo o WhatsApp.'
-              : 'Small group, advance booking. Filter by type or host, then book by email or WhatsApp.'
+              ? 'Cada experiencia se hace en grupos pequeños, con reserva previa. Filtrá por tipo o por anfitrión y reservá por correo o WhatsApp.'
+              : 'Small groups, advance booking. Filter by type or host, then book by email or WhatsApp.'
           )
         )
       ),

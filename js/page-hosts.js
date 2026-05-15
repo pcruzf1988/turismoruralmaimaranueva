@@ -32,7 +32,7 @@
           h('div', { class: 'eyebrow reveal', style: { marginBottom: '30px' } }, lang === 'es' ? 'Las familias' : 'The families'),
           h('h1', { class: 'reveal-clip', style: { fontSize: 'clamp(48px, 8vw, 110px)' } }, lang === 'es' ? 'Anfitriones' : 'Hosts'),
           h('p', { class: 'reveal', style: { fontSize: '19px', maxWidth: '620px', marginTop: '24px', color: 'var(--c-tinta-soft)' } },
-            lang === 'es' ? 'Seis emprendimientos familiares. Cada uno con su historia, su oficio y su forma de habitar Maimará.' : 'Six family ventures. Each with its own story, craft and way of living in Maimará.'
+            lang === 'es' ? 'Siete emprendimientos familiares. Cada uno con su historia, su oficio y su forma de habitar Maimará.' : 'Seven family ventures. Each with its own story, craft and way of living in Maimará.'
           )
         )
       ),
