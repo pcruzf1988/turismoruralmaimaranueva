@@ -150,7 +150,7 @@
               
               h('div', { class: 'eyebrow reveal', style: { marginTop: '12px' } }, lang === 'es' ? 'Las familias' : 'The families')
             ),
-            h('h2', { class: 'reveal' }, lang === 'es' ? 'Seis hogares, seis oficios, una misma quebrada.' : 'Six homes, six crafts, one quebrada.')
+            h('h2', { class: 'reveal' }, lang === 'es' ? 'Siete hogares, siete oficios, una misma quebrada.' : 'Seven homes, seven crafts, one quebrada.')
           ),
           h('div', { class: 'home-hosts-grid' },
             ...D.emprendimientos.map(emp =>
